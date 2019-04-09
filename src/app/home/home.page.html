@@ -1,14 +1,41 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content class="main-content"> 
+  <div>
+    <img id="bgrimage" src="./assets/imgs/welcomeAboard.jpeg" alt="imagenotavailable">
   </div>
+
+  <form class="main-form">
+    <ion-item class="field-wrapper">
+      <ion-label class="f-label" position="floating">First Name *</ion-label>
+      <ion-input class="f-input" type="text" name="title"></ion-input>
+    </ion-item>
+
+    <ion-item class="field-wrapper">
+      <ion-label class="f-label" position="floating">Last Name *</ion-label>
+      <ion-input class="f-input" type="text" name="title"></ion-input>
+    </ion-item>
+
+    <ion-item class="field-wrapper">
+      <ion-label class="f-label" position="floating">Email *</ion-label>
+      <ion-input class="f-input" type="text" name="title"></ion-input>
+    </ion-item>
+
+    <ion-item class="field-wrapper">
+      <ion-label class="f-label" position="floating">Phone *</ion-label>
+      <ion-input class="f-input" type="text" name="title"></ion-input>
+    </ion-item>
+
+    <ion-item class="field-wrapper">
+      <ion-label class="f-label" position="floating">Invited by *</ion-label>
+      <ion-input class="f-input" type="text" name="title"></ion-input>
+    </ion-item>
+
+    <ion-item class="field-wrapper">
+      <ion-label class="f-label" position="floating">Occupation *</ion-label>
+      <ion-input class="f-input" type="text" name="title"></ion-input>
+    </ion-item>
+  </form>
 </ion-content>
+
+<ion-footer class="i-footer">
+  <ion-button class="submit-btn" expand="full" (click)="submitTapped()">SUBMIT</ion-button>
+</ion-footer>

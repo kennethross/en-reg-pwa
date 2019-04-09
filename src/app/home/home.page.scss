@@ -1,1 +1,27 @@
+ion-content.main-content {
+  --background: black;
+  form.main-form {
+    --background: transparent;
+  }
 
+  ion-item.field-wrapper {
+    --background: transparent;
+      padding-right: 20px;
+
+      ion-label.f-label {
+        color: white;
+      }
+
+      ion-input.f-input {
+        color: white;
+      }
+  }
+}
+
+ion-footer.i-footer {
+  .submit-btn {
+    --background: rgb(252,214,42);
+    --background-activated: rgb(252,214,133); 	
+    margin: 0;
+  }
+}
